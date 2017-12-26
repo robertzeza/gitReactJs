@@ -9,6 +9,9 @@ class Search extends Component {
                 <div className='search'>
                     <input type='search'
                      placeholder='Digite o nome do usuario no github'/>
+                     onChange={(e) => {
+                         console.log('change', e.target.value)
+                     }}
                 </div>
         )
     } 
